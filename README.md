@@ -1,7 +1,7 @@
 # Oldskool demot
 
 Demoja oli tekemässä
-- Laura Talvio, <opiskelijanumero>
+- Laura Talvio, 903518
 - Kalle Kankaanpää, 793456
 
 ## Miten demo rakennettiin
@@ -14,3 +14,8 @@ x ja y koordinaattien muunnoksen. Sen jälkeen vuorossa oli tähden harmauden m�
 lisäsin koordinaattien siirtymisen ympyrän kaarta pitkin, joka aiheuttaa pyörimisefektin.
 
 ### Voxelimaisema
+Ensin etsittiin valmis perlin noise-kuva, josta ohjelma laskee ja tallettaa vektori-kokoelmaan yksittäisten 
+pixelien tummuudesta/vaaleudesta kyseiselle koordinaatile korkeuden tulevaan kuvaan. Korkeuden perusteellaa 
+valitaan kyseiselle koordinatille myös väri. Ohjelma piirtää rivi kerralaan takaa eteen rivin suorakulmioita, 
+joiden korkeus ja väri saadaan vektorista. Joka "piirtokierroksella" alkuperäisestä vektori kokoelmasta 
+otetaan hieman eri kohdasta joukko vektoreita, jolloin maisema näyttää liikkuvan.
