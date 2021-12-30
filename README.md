@@ -4,6 +4,10 @@ Demoja oli tekemässä
 - Laura Talvio, 903518
 - Kalle Kankaanpää, 793456
 
+## Miten demon voi ajaa
+
+Demon voi ajaa komennolla `sbt run`
+
 ## Miten demo rakennettiin
 
 ### 3D Starfield

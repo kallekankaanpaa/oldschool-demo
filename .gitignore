@@ -71,3 +71,6 @@ jrebel.lic
 #sbt project stuff
 /project/project
 /project/target
+
+/.vscode
+/.metals
